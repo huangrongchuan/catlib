@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="64" viewBox="0 0 176 64">
+  <g>
+    <path fill="rgb(253,187,88)" fill-rule="evenodd" d="M16 0h144c8.8306404 0 16 7.1693596 16 16v32c0 8.8306404-7.1693596 16-16 16H16C7.1693596 64 0 56.8306404 0 48V16C0 7.1693596 7.1693596 0 16 0z"/>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="64" y="40" fill="rgb(255,255,255)" font-family="Arial" font-size="24" font-weight="400" style="white-space:pre;text-transform:none">添加情报</tspan>
+    </text>
+  </g>
+</svg>

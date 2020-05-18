@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="64" viewBox="0 0 360 64">
+  <defs>
+    <rect id="rect-4" width="40" height="40" x="104" y="12"/>
+    <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="360" height="64" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-4"/>
+    </mask>
+  </defs>
+  <g>
+    <path fill="rgb(255,255,255)" fill-rule="evenodd" d="M16 0h328c8.8306404 0 16 7.1693596 16 16v32c0 8.8306404-7.1693596 16-16 16H16C7.1693596 64 0 56.8306404 0 48V16C0 7.1693596 7.1693596 0 16 0z"/>
+    <g>
+      <g>
+        <path fill="none" d="M104 12h40v40h-40V12z"/>
+        <path fill="rgb(79,79,79)" fill-rule="evenodd" d="M137.9083252 17.04166603C137.9916687 17.00833321 138.07499695 17 138.16667175 17 138.625 17 139 17.375 139 17.83333397v25.19999885c0 .3833313-.25.68333436-.6000061.80833436L129 47l-10-3.5-8.90833282 3.45833588C110.0083313 46.9916687 109.92500305 47 109.83333588 47 109.375 47 109 46.625 109 46.16666412V20.96666718c0-.38333321.2583313-.68333436.60832977-.80000115L119 17l10 3.5 8.9083252-3.45833397zM119 40.15833283l10 3.5083351V23.84166719l-10-3.50833321v19.82499885z"/>
+      </g>
+      <use fill="none" xlink:href="#rect-4"/>
+      <g mask="url(#mask-5)"/>
+    </g>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="152" y="40" fill="rgb(79,79,79)" font-family="Arial" font-size="24" font-weight="400" style="white-space:pre;text-transform:none">地图找猫</tspan>
+    </text>
+  </g>
+</svg>
