@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUST SVO 猫图鉴</title>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vant@2.1/lib/index.css">
+    <link rel="stylesheet" href="style/index.css">
+    <!-- 引入组件 -->
+    <script src="vue/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vant@2.1/lib/vant.min.js"></script>
+</head>
+
+<body>
+    <div id="mainbox">
+        <div id="upperbox">
+            <van-row style="position:relative; top: 32px;">
+                <van-col offset="0" span="8">
+                    <van-icon name="pic/UI/return_btn.svg" size="32" />
+                </van-col>
+            </van-row>
+        </div>
+        <div id="middlebox">
+            <img src="pic/UI/hustcatlib_title.svg">
+            <img src="pic/UI/login_title.svg">
+            <van-cell-group id="inputPhone">
+                <van-field placeholder="手机号/邮箱号" />
+            </van-cell-group>
+            <img src="pic/UI/exmcode_btn.svg">
+        </div>
+
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>
