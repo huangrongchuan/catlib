@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="48" viewBox="0 0 160 48">
+  <defs>
+    <rect id="rect-2" width="32" height="32" x="120" y="8"/>
+    <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="160" height="48" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-2"/>
+    </mask>
+  </defs>
+  <g>
+    <path fill="rgb(253,187,88)" fill-rule="evenodd" d="M16 0h128c8.8306404 0 16 7.1693596 16 16v16c0 8.8306404-7.1693596 16-16 16H16C7.1693596 48 0 40.8306404 0 32V16C0 7.1693596 7.1693596 0 16 0z"/>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="17.332" y="32" fill="rgb(255,255,255)" font-family="Arial" font-size="24" font-weight="400" style="white-space:pre;text-transform:none">注册/登录</tspan>
+    </text>
+    <g>
+      <use fill="none" xlink:href="#rect-2"/>
+      <g mask="url(#mask-3)">
+        <path fill="none" d="M120 8h32v32h-32V8z"/>
+        <path fill="rgb(255,255,255)" fill-rule="evenodd" d="M133.33333333 16l-1.88444444 1.88444444L137.56444444 24l-6.11555555 6.11555556L133.33333333 32l8-8-8-8z"/>
+      </g>
+    </g>
+  </g>
+</svg>

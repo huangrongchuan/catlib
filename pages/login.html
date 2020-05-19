@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUST SVO 猫图鉴</title>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vant@2.1/lib/index.css">
+    <link rel="stylesheet" href="../style/login.css">
+    <!-- 引入组件 -->
+    <script src="../vue/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vant@2.1/lib/vant.min.js"></script>
+</head>
+
+<body>
+    <div id="mainbox">
+        <div id="upperbox">
+            <van-row style="position:relative; top: 32px;">
+                <!-- 返回按钮 -->
+                <van-col offset="0" span="8">
+                    <van-icon name="../pic/UI/return_btn.svg" size="32" />
+                </van-col>
+            </van-row>
+        </div>
+        <div id="middlebox">
+            <!-- 猫图鉴logo -->
+            <img src="../pic/UI/hustcatlib_title.svg">
+            <!-- 登录注册标题 -->
+            <img id="title" src="../pic/UI/login_title.svg">
+            <!-- 手机号/邮箱号输入框 -->
+            <van-cell-group id="inputPhone">
+                <van-field placeholder="手机号/邮箱号" />
+            </van-cell-group>
+            <van-row style="position:relative; top:50px" type="flex" justify="space-between">
+                <van-col offset="0" span="5">
+                    <!-- 验证码登录 -->
+                    <img id="exmcode" src="../pic/UI/exmcode_btn.svg">
+                </van-col>
+                <van-col offset="0" span="10">
+                    <!-- 登录/注册 -->
+                    <img id="login_btn" src="../pic/UI/login_btn.svg">
+                </van-col>
+            </van-row>
+            
+        </div>
+
+    </div>
+</body>
+<script src="../js/login.js"></script>
+
+</html>

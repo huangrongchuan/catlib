@@ -22,3 +22,27 @@
 #middlebox img{
     display: block;
 }
+
+#inputPhone{
+    position: relative;
+    width: 360px;
+    height: 48px;
+    top:40px;
+}
+
+#title{
+    position: relative;
+    top:20px;
+}
+
+#exmcode{
+    position: relative;
+    width: 96px;
+    height: 60px;
+}
+
+#login_btn{
+    position: relative;
+    top:5px;
+    right: 5px;
+}
