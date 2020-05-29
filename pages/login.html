@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HUST SVO 猫图鉴</title>
+    <title>page_info_3</title>
     <!-- 引入vant样式 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vant@2.1/lib/index.css">
     <link rel="stylesheet" href="../style/login.css">
@@ -17,36 +17,70 @@
     <div id="mainbox">
         <div id="upperbox">
             <van-row style="position:relative; top: 32px;">
-                <!-- 返回按钮 -->
-                <van-col offset="0" span="8">
-                    <van-icon name="../pic/UI/return_btn.svg" size="32" />
-                </van-col>
             </van-row>
         </div>
-        <div id="middlebox">
-            <!-- 猫图鉴logo -->
-            <img src="../pic/UI/hustcatlib_title.svg">
-            <!-- 登录注册标题 -->
-            <img id="title" src="../pic/UI/login_title.svg">
-            <!-- 手机号/邮箱号输入框 -->
-            <van-cell-group id="inputPhone">
-                <van-field placeholder="手机号/邮箱号" />
-            </van-cell-group>
-            <van-row style="position:relative; top:50px" type="flex" justify="space-between">
-                <van-col offset="0" span="5">
-                    <!-- 验证码登录 -->
-                    <img id="exmcode" src="../pic/UI/exmcode_btn.svg">
-                </van-col>
-                <van-col offset="0" span="10">
-                    <!-- 登录/注册 -->
-                    <img id="login_btn" src="../pic/UI/login_btn.svg">
-                </van-col>
-            </van-row>
-            
-        </div>
-
+	  	<div id="highbox"><!--添加情报，四个圆点-->
+			<img id="addinformation" src="../pic/UI/添加情报.svg">
+			<div id="point">
+				<img  src="../pic/UI/orange_point.svg">
+				<img  src="../pic/UI/orange_point.svg">
+				<img  src="../pic/UI/orange_point.svg">
+				<img  src="../pic/UI/gray_point.svg">
+			</div>
+	  	</div>
+		<div id="sex"><!--性别选择-->
+			<img id="sex1" src="../pic/UI/性别.svg">
+			<img id="sex2" src="../pic/UI/雌.svg">
+			<img id="sex3" src="../pic/UI/雄.svg">
+			<img id="sex4" src="../pic/UI/不知道 1.svg">
+			<div id="sexchoose"><!--性别的三个选项-->
+				<img @click="point1" id="sexchoose1" :src="imgArr[index1]">
+				<img @click="point2" id="sexchoose2" :src="imgArr[index2]">
+				<img @click="point3" id="sexchoose3" :src="imgArr[index3]">
+			</div>
+		</div>
+		<div id="age"><!--年龄选择-->
+			<img id="age1" src="../pic/UI/年龄.svg">
+			<img id="age2" src="../pic/UI/你知道猫猫大概多大年纪吗？.svg">
+			<img id="age3" src="../pic/UI/知道 1.svg">
+			<img id="age4" src="../pic/UI/不知道 1.svg">
+			<img id="age5" src="../pic/UI/年.svg">
+			<img id="age6" src="../pic/UI/月.svg">
+			<div id="agechoose"><!--选择是否知道年龄-->
+				<img @click="point4" id="agechoose1" :src="imgArr[index4]">
+				<img @click="point5" id="agechoose2" :src="imgArr[index5]">
+			</div>
+			<div id="ageselect"><!--选择年龄有多大-->
+				<select v-model="selectedyear" id="ageselectyear"><!--选择年-->
+ 					<option v-for="option in year" v-bind:value="option.value">
+  				 		{{ option.text }}
+ 					</option>
+				</select>
+				<select v-model="selectedmonth" id="ageselectmonth"><!--选择月-->
+ 					<option v-for="option in month" v-bind:value="option.value">
+  				 		{{ option.text }}
+ 					</option>
+				</select>
+			</div>
+		</div>
+       	<div id="ste"><!--选择是否绝育-->
+			<img id="ste1" src="../pic/UI/绝育.svg">
+			<img id="ste2" src="../pic/UI/有没有接受过绝育手术？.svg">
+			<img id="ste3" src="../pic/UI/有.svg">
+			<img id="ste4" src="../pic/UI/没有.svg">
+			<img id="ste5" src="../pic/UI/不知道 1.svg">
+			<div id="stechoose"><!--选择是、否、不知道-->
+				<img @click="point6" id="stechoose1" :src="imgArr[index6]">
+				<img @click="point7" id="stechoose2" :src="imgArr[index7]">
+				<img @click="point8" id="stechoose3" :src="imgArr[index8]">
+			</div>
+		</div>
+		<div id="bottom"><!--选择上一步、下一步-->
+			<img id="bottom1" src="../pic/UI/上一步.svg">
+			<img @click="next" id="bottom2" src="../pic/UI/下一步.svg">
+		</div>
     </div>
 </body>
 <script src="../js/login.js"></script>
-
+</script>
 </html>

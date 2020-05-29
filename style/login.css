@@ -10,39 +10,152 @@
     height: 72px;
     background-color: white;
 }
-
-#middlebox{
-    position: relative;
-    width:90%;
-    height: 500px;
-    top:248px;
-    left:16px;
+#addinformation{
+	position:absolute;
+	left: 16px;
+	top: 88px;
 }
-
-#middlebox img{
-    display: block;
+#point{
+	position: absolute;
+	left: 288px;
+	top: 92px;
 }
-
-#inputPhone{
-    position: relative;
-    width: 360px;
-    height: 48px;
-    top:40px;
+#sex1{
+	position: absolute;
+	left: 16px;
+	top: 144px;
 }
-
-#title{
-    position: relative;
-    top:20px;
+#sex2{
+	position: absolute;
+	left: 56px;
+	top: 188px;
 }
-
-#exmcode{
-    position: relative;
-    width: 96px;
-    height: 60px;
+#sex3{
+	position: absolute;
+	left: 152px;
+	top: 188px;
 }
-
-#login_btn{
-    position: relative;
-    top:5px;
-    right: 5px;
+#sex4{
+	position: absolute;
+	left: 256px;
+	top: 188px;
+}
+#sexchoose1{
+	position: absolute;
+	left: 16px;
+	top: 184px;
+}
+#sexchoose2{
+	position: absolute;
+	left: 112px;
+	top: 184px;
+}
+#sexchoose3{
+	position: absolute;
+	left: 216px;
+	top: 184px;
+}
+#age1{
+	position: absolute;
+	left: 16px;
+	top: 240px;
+}
+#age2{
+	position: absolute;
+	left: 16px;
+	top: 272px;
+}
+#age3{
+	position: absolute;
+	left: 56px;
+	top: 300px;
+}
+#age4{
+	position: absolute;
+	left: 152px;
+	top: 300px;
+}
+#age5{
+	position: absolute;
+	left: 120px;
+	top: 352px;
+}
+#age6{
+	position: absolute;
+	left: 256px;
+	top: 352px;
+}
+#agechoose1{
+	position: absolute;
+	left: 16px;
+	top: 296px;
+}
+#agechoose2{
+	position: absolute;
+	left: 112px;
+	top: 296px;
+}
+#ageselectyear{
+	position: absolute;
+	width: 96px;
+	height: 48px;
+	left: 16px;
+	top: 344px;
+}
+#ageselectmonth{
+	position: absolute;
+	width: 96px;
+	height: 48px;
+	left: 152px;
+	top: 344px;
+}
+#ste1{
+	position: absolute;
+	left: 16px;
+	top: 416px;
+}
+#ste2{
+	position: absolute;
+	left: 16px;
+	top: 448px;
+}
+#ste3{
+	position: absolute;
+	left: 56px;
+	top: 476px;
+}
+#ste4{
+	position: absolute;
+	left: 150px;
+	top: 476px;
+}
+#ste5{
+	position: absolute;
+	left: 256px;
+	top: 476px;
+}
+#stechoose1{
+	position: absolute;
+	left: 16px;
+	top: 472px;
+}
+#stechoose2{
+	position: absolute;
+	left: 112px;
+	top: 472px;
+}
+#stechoose3{
+	position: absolute;
+	left: 216px;
+	top: 472px;
+}
+#bottom1{
+	position: absolute;
+	left:8px;
+	top: 528px;
+}
+#bottom2{
+	position: absolute;
+	left:248px;
+	top: 520px;
 }
